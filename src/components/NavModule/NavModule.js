@@ -66,6 +66,8 @@ const NavModule = () => {
           {title && (
             <LogoStyles>
               <Link to="/">
+                {/**
+                 
                 <svg
                   width="58"
                   height="52"
@@ -100,7 +102,7 @@ const NavModule = () => {
                     >
                       <feFlood flood-opacity="0" result="BackgroundImageFix" />
                       <feColorMatrix
-                        in="SourceAlpha"
+                      in="SourceAlpha"
                         type="matrix"
                         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
                         result="hardAlpha"
@@ -126,6 +128,9 @@ const NavModule = () => {
                     </filter>
                   </defs>
                 </svg>
+                */}
+                Julio Márquez
+                <span>.</span>
               </Link>
             </LogoStyles>
           )}

@@ -115,6 +115,7 @@ const Footer = () => {
           ""
         )}
       </div>
+      {/*
       <CopyrightStyles>
         <div className="container container__tight">
           <p>
@@ -130,6 +131,7 @@ const Footer = () => {
           </p>
         </div>
       </CopyrightStyles>
+          */}
     </FooterStyles>
   )
 }

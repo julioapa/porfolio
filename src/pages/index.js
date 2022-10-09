@@ -13,22 +13,35 @@ const Index = () => {
     <>
       <Seo title="Home" />
       <Layout>
-        <BannerModule title="Julio Márquez" subTitle="Desarrollador Web." />
+        <BannerModule
+          title="Successful Web Development"
+          subTitle="I'm subject matter expert in modern web application accessible, decoupling, and modular"
+        />
         <Features
           title="Projects"
-          introduction="Algunos de los proyectos que he desarrollado en diferentes empresas."
+          introduction="Estos son algunos de los proyectos que he desarrollado para diversas empresas.
+          creando una solucion a sus necesidades y siendo completamente exitosas,
+          acontinuacion podras ver en detalle cada uno de los proyectos."
         />
         <PerksModule>
           <Perk title="The Title" content="The content" />
         </PerksModule>
         <BasicTextModule
           title="About me"
-          content="Using modern CSS properties such as grid, this theme is optmised for
-            speed and mobile devices. Giving users an excellent experience on
-            any device. Future-proofing your product."
-          link="/products"
-          linkText="View Products"
+          content="
+          Hola, me llamo Julio Márquez.
+          
+          Soy desarrollador web especializado en solcuion de problemas empresariales.
+          atravez de mi conocimiento en diversas tegnologias. busco, encuentro y
+          ejecuto las mejores soluciones tomando encuenta eficiencia, costo de mantenimiento,
+          visualizacion y otras areas importantes en el desarrollo.
+          me gusta el trabajo que desempeño, me reta cada dia a ir aprendiendo y mejorando
+          en mi profesion.
+          habitualmente hago diferentes tipos de deporte y mi favorito es el futbol."
+          link="/about"
+          linkText="More About Me"
         />
+        {/*
         <PerksModule>
           <Perk title="The Title" content="The content" />
         </PerksModule>
@@ -36,6 +49,7 @@ const Index = () => {
           title="The Latest from Barcadia"
           introduction="Cras scelerisque, tellus sed gravida tincidunt, velit tellus blandit justo, nec viverra augue erat in erat. Maecenas iaculis sed purus non fringilla."
         />
+        */}
       </Layout>
     </>
   )
