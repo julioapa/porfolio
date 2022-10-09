@@ -2,7 +2,9 @@ import styled from "styled-components"
 
 export const FooterStyles = styled.footer`
   &.section {
-    padding: 0 var(--borderSpacing) var(--gap) var(--borderSpacing);
+    background-color: #003a51;
+    padding: var(--bannerTitle) var(--borderSpacing) var(--gap)
+      var(--borderSpacing);
 
     .container {
       display: flex;

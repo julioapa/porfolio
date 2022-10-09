@@ -13,13 +13,16 @@ const Index = () => {
     <>
       <Seo title="Home" />
       <Layout>
-        <BannerModule
-          title="Soy Julio"
-          subTitle="Using a combination of Gatsby and Contentful, Barcadia is ready to deploy and simple to use."
+        <BannerModule title="Julio Márquez" subTitle="Desarrollador Web." />
+        <Features
+          title="Projects"
+          introduction="Algunos de los proyectos que he desarrollado en diferentes empresas."
         />
+        <PerksModule>
+          <Perk title="The Title" content="The content" />
+        </PerksModule>
         <BasicTextModule
-          title="A super-fast theme that is easy to get started, using the power of
-            GatsbyJS"
+          title="About me"
           content="Using modern CSS properties such as grid, this theme is optmised for
             speed and mobile devices. Giving users an excellent experience on
             any device. Future-proofing your product."
@@ -29,10 +32,6 @@ const Index = () => {
         <PerksModule>
           <Perk title="The Title" content="The content" />
         </PerksModule>
-        <Features
-          title="Featured Products from Barcadia."
-          introduction="Vivamus quam mauris, pulvinar vel mauris id, interdum semper neque. Proin malesuada libero eget tellus scelerisque, id egestas tortor egestas."
-        />
         <LatestPosts
           title="The Latest from Barcadia"
           introduction="Cras scelerisque, tellus sed gravida tincidunt, velit tellus blandit justo, nec viverra augue erat in erat. Maecenas iaculis sed purus non fringilla."
